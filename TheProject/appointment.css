@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #f1f9fc;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+header {
+    justify-content: space-between;
+    padding: 28px 80px;
+}
+.logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px; ;
+}
+nav {
+    gap: 36px;
+    font-size: 13px;
+}
+
+nav a {
+    color: #111;
+    text-decoration: none;
+}
+nav .signup {
+    background: #1a9bd7;
+    color: #fff;
+    padding: 9px 18px;
+    border-radius: 20px;
+}
+.appt-hero {
+    background: url("appoinment.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    margin: 20px auto;
+    width: 1100px;
+    height: 400px;
+    padding: 60px 80px;
+    color: black;
+}
+.appt-hero small {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.appt-hero h1 {
+    font-size: 44px;
+    margin-bottom: 12px;
+}
+
+.appt-hero p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    width: 520px;
+    color: black;
+    font-size: 15px;
+}
+
+.appt-wrap {
+    display: block;
+    gap: 30px;
+    width: 1200px;
+    margin: 30px auto 60px;
+    padding: 0 20px;
+}
+
+.appt-form {
+    background: #fff;
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 8px 30px rgba(0, 40, 80, 0.08);
+}
+
+.appt-form h2 {
+    font-size: 22px;
+    color: #002850;
+    margin: 10px 0 20px;
+}
+
+.row {
+    gap: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.field label {
+    font-size: 14px;
+    color: #002850;
+    margin-bottom: 6px;
+}
+
+.field input {
+    padding: 12px 14px;
+    border: 1px solid #cfdbe6;
+    border-radius: 12px;
+    font-size: 15px;
+    background: #f7fcfe;
+}
+
+.field select
+ {
+    padding: 12px 14px;
+    border: 1px solid #cfdbe6;
+    border-radius: 12px;
+    font-size: 15px;
+    background: #f7fcfe;
+}
+.field textarea {
+    padding: 12px 14px;
+    border: 1px solid #cfdbe6;
+    border-radius: 12px;
+    font-size: 15px;
+    background: #f7fcfe;
+}
+.yellow-btn {
+    background: #ffff00;
+    color: #000;
+    border: none;
+    border-radius: 30px;
+    padding: 14px ;
+    font-size: 16px;
+    justify-items: center;
+}
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    font-size: 12px;
+    border-top: 1px solid #333;
+}
+
+.yellow-btn:hover {
+    background: #e6e600;
+}
+
+.appt-form .yellow-btn {
+    display: block;
+    margin: 10px auto 0;
+}
+
+.field input:focus {
+    border-color: #002850;
+    background: #fff;
+}
+
+.field select:focus {
+    border-color: #002850;
+    background: #fff;
+}
+.field textarea:focus {
+    border-color: #002850;
+    background: #fff;
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 16px;
+        padding: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .appt-hero {
+        width: auto;
+        height: 260px;
+        margin: 16px;
+        padding: 30px 24px;
+        border-radius: 20px;
+    }
+
+    .appt-hero h1 {
+        font-size: 28px;
+    }
+
+    .appt-hero p {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .appt-wrap {
+        width: auto;
+        margin: 20px 0 40px;
+        padding: 0 16px;
+    }
+
+    .appt-form {
+        padding: 24px 20px;
+        border-radius: 18px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .field input,
+    .field select,
+    .field textarea {
+        width: 300px;
+        box-sizing: border-box;
+        font-size: 16px; 
+    }
+
+    .yellow-btn,
+    .appt-form .yellow-btn {
+       width: 300px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        padding: 24px 20px;
+    }
+}

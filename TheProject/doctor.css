@@ -1,0 +1,297 @@
+*body {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #f1f9fc;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #f1f9fc;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+header {
+    justify-content: space-between;
+    padding: 28px 80px;
+}
+
+.logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px; ;
+}
+
+nav {
+    gap: 36px;
+    font-size: 13px;
+}
+
+nav a {
+    color: #111;
+    text-decoration: none;
+}
+nav .signup {
+    background: #1a9bd7;
+    color: #fff;
+    padding: 9px 18px;
+    border-radius: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    background: url(Doctors.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #111;
+    margin: 0 20px;
+    padding: 80px;
+    border-radius: 30px;
+    height: 450px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card {
+    width: calc(33.33% - 16px);
+    box-sizing: border-box;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 auto 16px auto;
+    background: black;
+    color: white;
+    font-size: 26px;
+    border-radius: 50%;
+}
+
+.card h3 {
+    margin: 0 0 6px 0;
+}
+
+.card h4 {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    color: #1a9bd7;
+}
+
+.card p {
+    margin: 0 0 18px 0;
+    font-size: 13px;
+    color: #444;
+}
+
+.card a {
+    display: inline-block;
+    padding: 10px 22px;
+    background: #f5cf47;
+    color: #222;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.text {
+    width: 500px;
+}
+h1 {
+    font-size: 46px;
+    font-weight: 300;
+    margin: 15px 0;
+}
+.text p {
+    font-size: 15px;
+    color: #1a9bd7;
+}
+
+.buttons {
+    gap: 14px;
+    margin-top: 30px;
+}
+
+.buttons a {
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.yellow {
+    background: #f5cf47;
+    color: #222;
+}
+
+.outline {
+    border: 1px solid #111;
+    color: #111;
+}
+
+.team {
+    text-align: center;
+    padding: 70px 80px 40px 80px;
+}
+
+.team h2 {
+    font-family: cursive;
+    font-size: 32px;
+    margin: 0 0 30px 0;
+}
+
+.cards {
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card {
+    width: calc(33.33% - 16px);
+    box-sizing: border-box;
+    background: #1a9bd7;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.card h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 6px 0;
+    color: white;
+}
+
+.card h4 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    color: white;
+}
+
+.card p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 18px 0;
+    font-size: 13px;
+    color: white;
+}
+
+.card a {
+    display: inline-block;
+    padding: 10px 22px;
+    background: #f5cf47;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 40px;
+    background: #1a9bd7;
+    border-radius: 30px;
+}
+
+.facts h3 {
+    margin: 0;
+    font-size: 34px;
+}
+.facts p {
+    margin: 6px 0 0 0;
+}
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    font-size: 12px;
+    border-top: 1px solid #333;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 16px;
+        padding: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .hero {
+        height: auto;
+        height: 320px;
+        margin: 0 16px;
+        padding: 40px 24px;
+        border-radius: 20px;
+    }
+
+    .text {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .team {
+        padding: 40px 16px 24px;
+    }
+
+    .team h2 {
+        font-size: 26px;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .card {
+        width: 350px;
+        border-radius: 30px;
+    }
+
+    .facts {
+        flex-direction: column;
+        gap: 24px;
+        margin: 10px 16px;
+        padding: 30px 20px;
+        border-radius: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        padding: 24px 20px;
+    }
+}
